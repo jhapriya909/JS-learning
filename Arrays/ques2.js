@@ -1,15 +1,26 @@
-let prices = [250, 645,300, 900, 50];
+
+// of loop
+// let prices = [250, 645,300, 900, 50];
+// let i = 0;
+// for(let  val of prices){
+//    let  offer = val / 10;
+//   prices[i] = prices[i] - offer ;
+//   console.log(`Value of after offer = ${prices[i]}`);
+//   i++;
 
 
-let idx = 0;
+// }
 
-for(let  val of prices){
+// for loop 
 
-    console.log(`value at index ${idx} = ${val}`);
-    idx++;
+let items = [250, 645,300, 900, 50];
 
-    offer = prices %10;
-
-    val = offer - prices
+for (let i = 0; i < items.length; i++){
+    let offer = items[i] / 10;
+    items[i] -= offer;
 
 }
+
+console.log(items);
+
+
