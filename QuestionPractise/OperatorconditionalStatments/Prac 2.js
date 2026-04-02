@@ -1,6 +1,6 @@
 let  a = 7;
 
-if(a%2!=0){
+if(a%2 !=0){
     console.log(" Odd number");
 }
 else{
