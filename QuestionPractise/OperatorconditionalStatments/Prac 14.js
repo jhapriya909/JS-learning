@@ -14,3 +14,4 @@ else if ((b > a && b < c) || (b > c && b < a)) {
 else {
     console.log(c);
 }
+
